@@ -19,7 +19,8 @@ body {
          }
 
 /* FOMATAÇAO DE INTERFACE*/
-         div#interface{
+
+             div#interface{
              width:1100px;
              background-color: #ffffff;
              margin: -20px auto 0 auto;
@@ -50,7 +51,7 @@ body {
 
 /* CABEÇALHO OS 2 PRIMEIROS TITULOS*/
 
-         header#cabecalho h1{
+             header#cabecalho h1{
              font-family: 'FonteLogo', sans-serif;
              font-size: 30pt;
              color: rgba(0,0,0,.5);
@@ -59,7 +60,7 @@ body {
              margin-bottom: 0;
          }
 
-         header#cabecalho h2{
+             header#cabecalho h2{
              font-family: 'FonteLogo2', sans-serif;
              color: #888888;
              font-size: 15pt;
@@ -73,18 +74,18 @@ body {
  /* FOMATAÇAO DE IMAGENS COM LEGENDAS*/
 /*_imagens/glass-quadro-homem-mulher.jpg"*/
 
-        figure.foto-legenda{
+            figure.foto-legenda{
             position: relative;
             border: 3px solid white;
             box-shadow: 1px 1px 4px black;
         }
 
-        figure.foto-legenda img{
+          figure.foto-legenda img{
           width: 100%;
           height: 100%;
         }
 
-         figure.foto-legenda figcaption{
+           figure.foto-legenda figcaption{
            opacity: 0;
            position: absolute;
            top: 0;
@@ -94,7 +95,7 @@ body {
            transition: opacity 1s;
          }
 
-          figure.foto-legenda:hover figcaption{
+              figure.foto-legenda:hover figcaption{
               opacity: 1;
           }
 
@@ -106,90 +107,86 @@ body {
 
 
 /* fazer o menu ficar na posicao correta */
-   nav#menu {
+ 
+       nav#menu {
        display: block;
-
-   }
+       }
 
 
 /* FOMATACÃO DO MENU caxinhas de clicar*/
 
-   nav#menu ul {
+       nav#menu ul {
        list-style: none;
        text-transform: uppercase;
        position: absolute;
        top: -20px;
        left: 380px;
-
-   }
+       }
 
 
 /* FOMATACÃO DO MENU para ficar em cima do site na horizontal*/
 
-   nav#menu li {
+       nav#menu li {
        display: inline-block;
        background-color: #dddddd;
        padding: 10px;
        margin: 2px;
        transition: backgroud-color 1s;
-
-   }
+       }
 
 
 /* ESCONDER O H1 DO MENU*/
 
-   nav#menu h1{
+    nav#menu h1{
     display: none;
-
-   }
+    }
 
 
 /* fazer efeito de 1s  H1 DO MENU*/
 
-   nav#menu a:hover {
+    nav#menu a:hover {
     color: #ffffff;
     transition: color 2s;
-       text-decoration: underline;
+    text-decoration: underline;
    }
+   
 /* fazer efeito de mudar a cor quando passar o mouse */
 
-   nav#menu li:hover{
+       nav#menu li:hover{
        background-color: #606060;
-   }
+       }
 
 /* FOMATAR OS LINKS*/
 
-   nav#menu a{
+       nav#menu a{
        color: black;
        text-decoration: none;
-   }
+       }
 
 /* CONFIGURAÇAO DA SECTION PRINCIPAL CORPO*/
 
-   section#corpo{
+       section#corpo{
        display: block;
        width: 600px;
        float: left;
        border-right: 1px solid grey;
        padding-right: 25px;
-   }
+       }
 
 /* CONFIGURAÇAO DA ASIDE LATERAL CORPO*/
 
-   aside#lateral{
+       aside#lateral{
        display: block;
        width: 450px;
        float: right;
-
-   }
+       }
+       
 /* CONFIGURAÇAO DA footer rodape CORPO*/
 
-   footer#rodape{
+       footer#rodape{
        clear: both;
        border-top: 1px solid grey;
-
-
-   }
+       }
 
    footer#rodape h3 {
 
